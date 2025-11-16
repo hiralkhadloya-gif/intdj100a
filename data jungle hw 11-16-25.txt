@@ -1,0 +1,177 @@
+C:\src>git clone https://github.com/hiralkhadloya-gif/intdj100a
+Cloning into 'intdj100a'...
+remote: Enumerating objects: 70, done.
+remote: Counting objects: 100% (26/26), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 70 (delta 23), reused 17 (delta 17), pack-reused 44 (from 1)
+Receiving objects: 100% (70/70), 12.61 KiB | 759.00 KiB/s, done.
+Resolving deltas: 100% (25/25), done.
+
+C:\src>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 4AA6-45F8
+
+ Directory of C:\src
+
+11/15/2025  08:36 PM    <DIR>          .
+11/15/2025  08:36 PM    <DIR>          intdj100a
+               0 File(s)              0 bytes
+               2 Dir(s)  447,068,164,096 bytes free
+
+C:\src>
+C:\src>cd intdj100a
+
+C:\src\intdj100a> dir
+ Volume in drive C has no label.
+ Volume Serial Number is 4AA6-45F8
+
+ Directory of C:\src\intdj100a
+
+11/15/2025  08:36 PM    <DIR>          .
+11/15/2025  08:36 PM    <DIR>          ..
+11/15/2025  08:36 PM    <DIR>          hiral
+11/15/2025  08:36 PM                56 README.md
+11/15/2025  08:36 PM                66 sushil_test.py
+11/15/2025  08:36 PM                15 test300.txt
+11/15/2025  08:36 PM                60 testfile100.txt
+11/15/2025  08:36 PM                61 testfile200.txt
+11/15/2025  08:36 PM               112 testfile400.txt
+11/15/2025  08:36 PM               138 testfile500.txt
+               7 File(s)            508 bytes
+               3 Dir(s)  447,063,478,272 bytes free
+
+C:\src\intdj100a> notepad hiral tedt.txt
+
+C:\src\intdj100a> notepad hiraltedt.txt
+
+C:\src\intdj100a>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 4AA6-45F8
+
+ Directory of C:\src\intdj100a
+
+11/15/2025  08:39 PM    <DIR>          .
+11/15/2025  08:36 PM    <DIR>          ..
+11/15/2025  08:36 PM    <DIR>          hiral
+11/15/2025  08:39 PM                14 hiraltedt.txt
+11/15/2025  08:36 PM                56 README.md
+11/15/2025  08:36 PM                66 sushil_test.py
+11/15/2025  08:36 PM                15 test300.txt
+11/15/2025  08:36 PM                60 testfile100.txt
+11/15/2025  08:36 PM                61 testfile200.txt
+11/15/2025  08:36 PM               112 testfile400.txt
+11/15/2025  08:36 PM               138 testfile500.txt
+               8 File(s)            522 bytes
+               3 Dir(s)  447,062,224,896 bytes free
+
+C:\src\intdj100a>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hiraltedt.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\src\intdj100a>git add {hiraltedt.txt}
+fatal: pathspec '{hiraltedt.txt}' did not match any files
+
+C:\src\intdj100a>git add hiraltedt.txt
+
+C:\src\intdj100a>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   hiraltedt.txt
+
+
+C:\src\intdj100a> git commit -m "Adding test file"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'milin@Milind-home.(none)')
+
+C:\src\intdj100a>git config --global Hiral.Khadloya@gmail.com
+
+C:\src\intdj100a> git commit -m "Adding test file"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'milin@Milind-home.(none)')
+
+C:\src\intdj100a>git config --global user.email "Hiral.Khadloya@gmail.com"
+
+C:\src\intdj100a> git commit -m "Adding test file"
+[main 9aa5ca2] Adding test file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hiraltedt.txt
+
+C:\src\intdj100a>git config --global user.email "Hiral.Khadloya@gmail.com"
+
+C:\src\intdj100a>git push
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 293 bytes | 293.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/hiralkhadloya-gif/intdj100a
+   1b8fc2c..9aa5ca2  main -> main
+
+C:\src\intdj100a>git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 1 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 910 bytes | 70.00 KiB/s, done.
+From https://github.com/hiralkhadloya-gif/intdj100a
+   9aa5ca2..6da0bc6  main       -> origin/main
+Updating 9aa5ca2..6da0bc6
+Fast-forward
+ hiraliscool | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hiraliscool
+
+C:\src\intdj100a>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 4AA6-45F8
+
+ Directory of C:\src\intdj100a
+
+11/15/2025  08:53 PM    <DIR>          .
+11/15/2025  08:36 PM    <DIR>          ..
+11/15/2025  08:36 PM    <DIR>          hiral
+11/15/2025  08:53 PM                 2 hiraliscool
+11/15/2025  08:39 PM                14 hiraltedt.txt
+11/15/2025  08:36 PM                56 README.md
+11/15/2025  08:36 PM                66 sushil_test.py
+11/15/2025  08:36 PM                15 test300.txt
+11/15/2025  08:36 PM                60 testfile100.txt
+11/15/2025  08:36 PM                61 testfile200.txt
+11/15/2025  08:36 PM               112 testfile400.txt
+11/15/2025  08:36 PM               138 testfile500.txt
+               9 File(s)            524 bytes
+               3 Dir(s)  447,047,249,920 bytes free
